@@ -10,7 +10,7 @@ object Build extends AutoPlugin {
   override def requires = JvmPlugin
 
   object autoImport {
-    val org                    = "com.sksamuel.elastic4s"
+    val org                    = "com.github.pjfanning.elastic4s"
     val AkkaVersion            = "2.5.23"
     val AkkaHttpVersion        = "10.1.8"
     val CatsEffectVersion      = "2.0.0"
